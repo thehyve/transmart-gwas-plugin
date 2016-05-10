@@ -19,7 +19,8 @@
   			<link rel="stylesheet" href="${resource(dir:'css', file:'folderManagement.css', plugin: 'folderManagement')}"></link>        
   		</g:ifPlugin>
 
-        
+        <script type="text/javascript" src="${resource(dir: 'js', file: 'help/D2H_ctxt.js')}"></script>
+
         <script type="text/javascript" charset="utf-8">
 	        var searchResultsURL = "${createLink([action:'loadSearchResults'])}";
 	        var facetResultsURL = "${createLink([action:'getFacetResults'])}";
